@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-image: url("../img/bg-2.png");
+    color: rgb(75, 75, 75);
+}
+
+div.master {
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: orangered;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+header img{
+    float: left;
+    padding: 13px;
+}
+
+header nav {
+    padding: 7px;
+    overflow: hidden;
+}
+
+header nav ul.nav{
+    float: left;
+    overflow: hidden;
+}
+
+header nav ul.log {
+float: right;
+overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+
+
+
+
+/* MAIN */
+
+main.home {
+    width: 800px;
+    float: left;
+}
+
+/* PRODUCTOS */
+
+section.productos {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+section.productos article.producto {
+    width: 380px;
+    margin: 10px 10px 20px 10px;
+    float: left;
+}
+
+section.productos article.producto img {
+    width: 100%;
+}
+
+section.productos article.producto h2{
+    font-size: 22px;
+}
+
+section.productos article.producto button{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+section.productos article.producto button:hover {
+    background-color: orange;
+}
+
+/* ASAID */
+
+aside{
+    width: 320px;
+    float: right;
+}
+
+aside h2 {
+    padding: 10px;
+    background-color: white;
+    margin: 0 0 16px 0;
+    border: 1px solid #b8e1e2;
+}
+
+/* TUTORIALES */
+
+aside section.tutoriales div.tutoriales {
+    background-color: #fff;
+   }
+   
+aside section.tutoriales div.tutoriales article {
+     padding: 10px;
+     overflow: hidden;
+     border: 1px solid #b8e1e2;
+   }
+   
+aside section.tutoriales div.tutoriales article img {
+     float: left;
+   }
+   
+aside section.tutoriales div.tutoriales article p {
+     float: right;
+     width: 176px;
+   }
+   
+
+/* PUBLICIDAD */
+
+aside section.publicidad {
+    margin-top: 40px;
+}
+
+aside section.publicidad div.publicidad {
+    background-color: white;
+    border: 1px solid #b8e1e2;
+}
+
+aside section.publicidad div.publicidad article img {
+    margin: 9px;
+}
+
+
+
+/* FORMULARIOS */
+
+dir.form{
+    width: 350px;
+    margin: auto;
+}
+
+div.master header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .5s;
+  }
+  
+  div.master header nav ul li a:hover {
+    background-size: 100% 2px;
+  }
